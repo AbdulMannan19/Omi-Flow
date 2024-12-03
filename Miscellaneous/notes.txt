@@ -1,0 +1,24 @@
+Learn to deploy on Heroku
+fetch uid from heroku url query param on the setup page
+redirect user to google authenticate page
+if authenticated :
+    save token in supabase mapped to that Uid and email
+else :
+    redirect back to setup page
+
+
+
+
+Supa base 
+
+Uid
+Email
+Token
+
+
+
+Heroku password : Yj26fs@zk37gtYj26fs@zk37gt
+
+Supabse API : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV2ZXdnb3BsZW9mZHBoa2p3Y2ZzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzMxNzA2MTgsImV4cCI6MjA0ODc0NjYxOH0.2G19pYE4j3fEOZ-SRfQWCkaTl63ORnBIveRGc88vrEU
+
+Url : https://evewgopleofdphkjwcfs.supabase.co

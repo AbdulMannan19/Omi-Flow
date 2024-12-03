@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='setup.css') }}">
+    <title>Welcome to OMI Flow</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Welcome to OMI Flow</h1>
+            <p>
+                Automate your tasks effortlessly with OMI App! Simplify sending emails, saving documents to Google Drive, and managing your calendar.
+            </p>
+            <p>
+                We value your privacy. Integrate securely with Google services to enable these features. Only the essential data will be accessed.
+            </p>
+            <button onclick="proceedToNext()">Get Started</button>
+        </div>
+    </div>
+
+    <script>
+        function proceedToNext() {
+            alert("Proceeding to authentication flow...");
+        }
+    </script>
+</body>
+</html>
